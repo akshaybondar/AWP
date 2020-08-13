@@ -1,0 +1,59 @@
+.body,html{
+    margin: 0px;
+}
+#main{
+    border: black solid 2px;
+    height: 128%;
+    margin: 10px;
+    width: 80%;
+    margin-left: 10%;
+
+}
+.header1{
+    
+    background: palegreen;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ 
+}
+.parent
+{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    align-items: center;
+    text-align: center;
+}
+.Right{
+    background:orangered;
+    flex: 1;
+    
+    height: 80vh;
+    
+    
+}
+.Center{
+    background: white;
+    flex: 6;
+    justify-content: center;
+    height: 80vh;
+    align-content: center;
+    
+    
+}
+.foother1{
+    background: palegreen;
+    height: 10vh;
+    
+}
+.left{
+    flex: 1;
+    background: green;
+    justify-content: center;
+    height: 80vh;
+    align-content: center;
+    
+}

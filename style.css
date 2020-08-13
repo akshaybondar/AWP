@@ -1,0 +1,43 @@
+body,html{
+    margin: 0px;
+}
+#main{
+    border: black solid 2px;
+    height: 128%;
+    margin: 15px;
+    width: 50%;
+    margin-left: 25%;
+}
+.column{
+    border: chartreuse;
+    color:black;
+    flex: 1;
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: flex;
+    height: auto;
+
+}
+.column-e{
+    border: chartreuse;
+    color:white;
+    flex: 1;
+    font-size: 200%;   
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    background: yellow;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+}
