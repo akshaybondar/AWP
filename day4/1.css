@@ -1,0 +1,44 @@
+.header{
+ background: tomato;
+ height: 35vh;
+ display: flex; 
+   
+}
+
+.h1{
+    flex: 0.5;
+    background-color: lightsalmon;
+    
+}
+
+.h2{
+    flex: 1;
+    background: tomato;
+    
+}
+.h3{
+    flex: 0.1;
+    background-color: lightsalmon;
+}
+.h2Name{
+    margin-left: 4%;
+    margin-top: 8%;
+    font-size: 32px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+
+}
+.h2name2{
+    margin-left: 4%;
+    margin-top: 0%;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+
+}
+
+.img1
+{
+    border-radius: 50% ;
+    height: 30vh;
+    margin-top: -10%;
+    margin-left: 10%;
+}
