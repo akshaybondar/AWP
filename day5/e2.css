@@ -1,0 +1,67 @@
+body,html{
+    margin: 0;
+}
+.main{
+    background-image: url(111.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100vh;
+    display: flex;
+}
+
+.loginbody{
+    align-items: center;
+    
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 9%;
+    width: 50%;
+}
+
+form {border: 3px solid black;
+        background-image: url(123.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+    }
+
+input[type=text], input[type=password] {
+  width: 40%;
+  padding: 12px;
+  margin: 8px;
+  border-radius: 20px;
+}
+
+button[type=submit] {
+  background-color: purple;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  width: 15%;
+  border-radius: 50px;
+
+}
+
+button:hover {
+  opacity: 0.8;
+  
+
+}
+
+.iconcontainer {
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 5%;
+  
+}
+
+
+.container {
+    padding-top: 5%;
+    padding-left: 20%;
+    align-items: center;
+    justify-items: center;
+    padding-top: 5%;
+}
